@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: rgb(165, 191, 189);
+    display: block;
+    margin: 0 auto;
+}
+
+.game-over {
+    text-align: center;
+    font-size: 48px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gameOverMessage{
+    background-color: aliceblue;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
